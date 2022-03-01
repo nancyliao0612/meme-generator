@@ -5,12 +5,25 @@
 body {
   max-width: 550px;
   margin: auto;
-  background: #f5f8f7;
+  background-color: #e4e8e6;
+}
+
+h1 {
+  color: #649173;
+  margin: 15px auto;
+  text-align: center;
+  /* border: solid 1px; */
+}
+
+.underline {
+  border: solid 1.5px #dbd5a4;
+  margin: 20px 230px;
+  background: #dbd5a4;
 }
 
 main {
   padding: 36px;
-  background-color: #e4e8e6;
+  background: #f5f8f7;
 }
 
 .header {
