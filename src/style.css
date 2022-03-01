@@ -5,18 +5,21 @@
 body {
   max-width: 550px;
   margin: auto;
+  background: #f5f8f7;
 }
 
 main {
   padding: 36px;
+  background-color: #e4e8e6;
 }
 
 .header {
   display: flex;
   align-items: center;
   color: #fff;
-  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
-  padding: 10px 20px;
+  background: linear-gradient(to right, #649173, #dbd5a4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px 15px;
   height: 65px;
 }
 
@@ -32,7 +35,7 @@ main {
 
 .header p {
   font-size: 12px;
-  margin-right: 37px;
+  margin-right: 10px;
 }
 
 .form {
@@ -51,7 +54,7 @@ main {
 }
 
 .form button {
-  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  background: linear-gradient(to right, #649173, #dbd5a4);
   border-radius: 5px;
   border-style: none;
   grid-column: 1 / -1;
