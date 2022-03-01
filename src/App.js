@@ -4,7 +4,7 @@ import Meme from "./components/Meme";
 function App() {
   return (
     <div>
-      <h1>Meme Your Own Meme</h1>
+      <h1>Make Your Own Meme</h1>
       <div className="underline"></div>
       <Header />
       <Meme />
